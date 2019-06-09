@@ -10,7 +10,7 @@ project(triSYCL VERSION ${TRISYCL_VERSION} LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 
-include(FindTriSYCL)
+include(FindtriSYCL)
 
 # Enable CTest
 include(CTest)
